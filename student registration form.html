@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    background: rgb(240,240,240);
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0,0,255);
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+label{
+    color: rgba(0,0,0,0.8);
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input{
+    color: rgb(0,0,0);
+    font-family: Arial, sans-serif;
+    background: rgba(255,255,255,0.9);
+}
+
+select{
+    color: rgb(0,0,0);
+    font-family: Arial, sans-serif;
+    background: rgba(255,255,255,0.9);
+}
+
+button{
+    color: rgb(255,255,255);
+    background: rgb(0,0,255);
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form>
+
+<label>Name:</label>
+<input type="text" ><br><br>
+
+<label>Email:</label>
+<input type="email"><br><br>
+
+<label>Phone:</label>
+<input type="number" ><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+<br><br>
+
+<label>Course:</label>
+<select>
+    <option>Select Course</option>
+    <option>B.Tech</option>
+    <option>B.Sc</option>
+    <option>B.Com</option>
+    <option>BA</option>
+    <option>MBA</option>
+    <option>MCA</option>
+</select>
+<br><br>
+
+<label>Password:</label>
+<input type="password" ><br><br>
+
+<button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
